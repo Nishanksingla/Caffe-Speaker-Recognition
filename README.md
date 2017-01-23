@@ -17,7 +17,7 @@ Executed the following command from Caffe root folder
 build/tools/caffe train --solver = speaker_recognition/solver.prototxt
 
 ##Accuracy
-Achieved 99% accuracy in 5212 iterations.
+Achieved 99% accuracy in 5000 iterations.
 
 ##Classification
 Executed the following command from Caffe root folder for classification the "0_Karen_160.png" which is a spectrogram of user "Karen" speaking number '0' by using the trained model.
