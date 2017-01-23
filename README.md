@@ -24,3 +24,6 @@ Achieved 99% accuracy in 5000 iterations.
 Executed the following command from Caffe root folder for classification the "0_Karen_160.png" which is a spectrogram of user "Karen" speaking number '0' by using the trained model.
 
 build/examples/cpp_classification/classification.bin speaker_recognition/numbers_deploy.prototxt speaker_recognition/numbers_iter_5212.caffemodel speaker_recognition/train_mean.binaryproto speaker_recognition/synset_numbers.txt speaker_recognition/0_Karen_160.png
+
+##Reference
+https://github.com/pannous/caffe-speech-recognition
