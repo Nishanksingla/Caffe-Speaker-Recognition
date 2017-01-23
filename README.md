@@ -1,13 +1,13 @@
-# Caffe-Speaker-Rcognition
+# Caffe-Speaker-Recognition
 Convolutional Neural Network to recognize the speaker from a spoken number dataset.
 
 ##Dataset
-Dataset includes audio spectrogram of 24 different speakers, speaking 0-9 numbers. 
-Training set has total of 3500 records and Testing set includes total of 1080 records.
+The dataset includes audio spectrogram of 24 different speakers, speaking 0-9 numbers. 
+Training set has the total of 3500 records and Testing set includes the total of 1080 records.
 Dataset Link http://pannous.net/spoken_numbers.tar
 
 ##Model
-Convolutional Neural Network consists of 5 convolution layers, 3 fully connected layers with ReLu and Max Pooling in between. 
+Convolutional Neural Network consists of 5 convolution layers, 3 fully connected layers with ReLu and Max-Pooling in between. 
 
 ##Deep Learning Platform Used
 Caffe
