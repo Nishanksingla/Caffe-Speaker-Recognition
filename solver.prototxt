@@ -1,0 +1,14 @@
+net: "numbers_net.prototxt"
+test_iter: 108
+test_interval: 200
+base_lr: 0.01
+momentum: 0.95
+weight_decay: 0.0005
+lr_policy: "inv"
+gamma: 0.001
+power: 0.75
+display: 100
+max_iter: 10000
+snapshot: 2000
+snapshot_prefix: "speaker_recognition/numbers"
+solver_mode: GPU
