@@ -9,11 +9,11 @@ Dataset Link http://pannous.net/spoken_numbers.tar
 ##Model
 Convolutional Neural Network consists of 5 convolution layers, 3 fully connected layers with ReLu and Max Pooling in between. 
 
-##Deep Learning Platform
+##Deep Learning Platform Used
 Caffe
 
 ##Training Steps
-Executed the following command from Caffe root folder
+Executed the following command from Caffe root folder to train the model.
 
 build/tools/caffe train --solver = speaker_recognition/solver.prototxt
 
